@@ -22,6 +22,7 @@ exports.item_post = function (req, res, next) {
 
             }
         );
+        
 
         new_item.save(function (err) {
             if (err) {
